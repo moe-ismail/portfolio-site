@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #DCE35B;  
+  background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  
+  background: linear-gradient(to right, #45B649, #DCE35B);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 100px 0;
+}
+
+header h2 {
+  font-family: "Quicksand", sans-serif;
+}
+
+header nav {
+  display: flex;
+  margin-right: -15px;
+  left: 800px;
+  bottom: 100px;
+  position: relative
+}
+
+header nav li {
+  margin: 0 15px;
+}
+
+nav{
+  list-style: none;
+}
+
+
+

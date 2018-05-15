@@ -1,0 +1,14 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+.gatsby-node
+
+# Build directory
+.DS_Store
+
+# Untracked files
+gatsby-node.js
+gatsby-config.js
+gatsby-browser.js
+public/render-page.js.map
