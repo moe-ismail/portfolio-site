@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import './index.css'
 import Link from 'gatsby-link'
+import TabContainer from '../components/Navbar'
 
 
 
@@ -17,6 +18,7 @@ const Layout = ({ children, data }) => (
     />
     <header className="header">
       <div className="header-wrap">
+        
         <Link className="homelink" to ="/"><span className ="logo">Logo</span>
         <h1 className="name">Moe Ismail </h1>
         </Link>
@@ -24,9 +26,11 @@ const Layout = ({ children, data }) => (
             <li><Link className="about" to="/about">About</Link></li>
             <li><Link className="projects" to="/projects">Projects</Link></li>
             <li><Link className="contact" to="/contact">Contact</Link></li>
+            
         </nav>
       </div>
     </header>
+    
 
     <div
       style={{
