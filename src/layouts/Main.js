@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import {config} from 'config';
-
+import Navbar from '../components/Navbar'
 
 class Main extends React.Component{
     render() {
